@@ -1,0 +1,337 @@
+*{
+    font-family:sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-padding-top: 100px; 
+  }
+
+
+#home{
+    margin-top:7%;
+    margin-left: 10%;
+}
+.navbar
+{
+    width:100%;
+    height:100vh;
+    background-color:white;
+    position:relative;
+   
+}
+.logo{
+    font-size:40px;
+    color:darkslategrey;
+    font-weight:600;
+    margin-left:10px;
+    transition:0.3s ease;
+}
+.logo:hover{
+    color:lightcoral;
+    text-shadow:0 0 25px lightcoral,
+                0 0 50px lightcoral;
+    transform:scale(1.1);
+
+}
+nav{
+    top:0;
+    display:flex;
+    width:100%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content:space-between;
+    background:lightgray;
+    z-index:99;
+    position:fixed;
+    left:0;
+    z-index:100;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+nav ul li a {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    transition: all .5s ease;
+}
+nav ul li a:hover{
+    color:lightcoral;
+    box-shadow:0 0 10px white;
+}
+
+#about{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:15%;
+    text-align:center;
+
+   
+}
+#home a{
+    width:20%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background-color:black;
+    color:White;
+    border-radius: 0.3em;
+    font-size:16px;
+    border:2px solid transparent;
+    font-weight:600px;
+    transition:all 0.5s ease;
+}
+#home a:hover{
+    color:white;
+    background-color:lightcoral;
+    cursor: pointer;
+}
+.mail{
+    font-size:25px;}
+
+
+#about p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:30px;
+    color:black;
+    margin-bottom:20px;
+    font-size:22px;
+    letter-spacing: 2px;
+    border-radius:0.4em;
+    border:0;
+    outline:0;
+    margin-left:200px;
+    margin-right:200px;
+    
+}
+#about p:hover{
+    color:whitesmoke;
+    box-shadow:0 0 50px;
+    background-color:lightsteelblue;
+    cursor: pointer;
+}
+
+.headings{
+    font-size:36px;
+    text-align:center;
+     margin:40px 0px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.headings:hover{
+    cursor: pointer;
+    color:lightcoral;
+    text-shadow:0 0 25px lightcoral,
+                0 0 50px lightcoral;
+                transform: scale(1.1);
+}
+span{
+    color:cadetblue;
+}
+.name{
+    font-size:40px;
+
+}
+#home h3{
+    font-family:cursive;
+    font-size:25px;
+}
+#home p{
+    line-height:25px;
+    color:gray;
+    margin-bottom:20px;
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.image{
+    height:40%;
+    width:25%;
+    position:absolute;
+    bottom:20px;
+    right:100px;
+    top:30px;
+}
+.image img{
+    height:100%;
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-55%);
+    transition:left 2s ease;
+}
+.image img:hover{
+    left:65%;
+}
+.icons a{
+    color:midnightblue;
+}
+.icons ion-icon{
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:15%;
+    margin-top:10px;
+    color:#000;
+    margin-right:5%;
+    font-size:40px;
+    
+}
+.icons ion-icon:hover{
+    color:lightcoral;
+}
+#contact-form{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color:white;
+    background:lightblue;
+    
+}
+#contact-form h2{
+     text-align:center;
+     font-size:40px;
+     margin-top:3em;
+     margin-bottom: 1em;
+}
+#contact-form form{
+    text-align:center;
+    margin-bottom:3em;
+    margin: 1em auto;
+    max-width:50em;
+    
+}
+#contact-form form .input-box{
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+#contact-form form .input-box input{
+    font-size:20px;
+    color:black;
+    padding:1px 5px;
+    border-radius:0.4em;
+     width:75%;
+     margin: 10px auto;
+     border:0;
+     outline:0;
+     line-height:30px;
+}
+#msg{
+    width:50%;
+    padding:10px;
+    margin:15px;
+    border:none;
+    outline:none;
+    border-radius:0.4em;
+    font-size:20px;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:dimgrey;
+}
+::-webkit-scrollbar-track{
+    background-color:lightyellow;
+}
+.footer{
+    position:relative;
+    bottom:0;
+    background-color:lightslategray;
+    width:100%;
+    padding:40px 0;
+    text-align:center;
+}
+
+
+.footer ul li{
+    display:inline-block;
+    padding:0 15px;
+    font-size:18px;
+    ;
+}
+.footer ul li a{
+    color:whitesmoke;
+    
+}
+.footer .copyright{
+    margin-top:50px;
+    text-align:center;
+    color:white;
+    font-size:20px;
+   
+}
+#about{
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom:50px;
+   
+
+}
+#skills{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-top:150px;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing:border-box;
+    
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:450px;
+    border:1px solid black;
+    align-items:center;
+    margin:10px;
+    padding:10px;
+    text-align: justify;
+    border-radius: 15px;
+    background: linear-gradient(to top,lightpink 50%,white 50%);
+    background-size: 100% 200%;
+    transition:all .8s;
+    margin-bottom:30px;
+}
+.box p{
+    line-height:22px;
+}
+.box:hover{
+background-position: left bottom;
+color:white;
+box-shadow:0 0 10px pink;
+border:none;
+}
+.box img{
+    width:80px;
+    height:80px;
+    background-color:white;
+}
+#send{
+    padding: 20px;
+    width:300px;
+    margin:20px;
+    border: 0;
+    outline: 0;
+    color:black;
+    line-height:30px;
+}
+#send:hover{
+    color:white;
+    background-color: lightcoral;
+    box-shadow:0 0 25px ;
+}
